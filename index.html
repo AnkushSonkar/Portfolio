@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <div class="container portfolio-logo-section">
+        <div class="portfolio-logo">
+          <img class="logo-icon" src="icons\a.gif" alt="logo">
+        </div>
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <div class="overlay-content">
+              <a class="home home-active" href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+          <span class="menu-icon" style="font-size: 30px; cursor: pointer" onclick="openNav()"
+            >&#9776;</span
+          >
+        </div>
+      </div>
+      
+    </header>
+    <!--                              home section  start                        -->
+
+    <section class="container" >
+      <div class="container home-content ">
+        <div class="home-content-1">
+            <div class="home-content-text" data-aos="fade-right">
+              <h3 class="home-content-text-1">
+                Hello, 
+              </h3>
+              <h1 class="home-content-text-2">I'm Ankush <span class="home-content-text-2-span">Sonkar</span></h1>
+              <h2 class="home-content-text-3">Web Designer & Developer</h2>
+              <a href="about.html"><button type="button" class="home-btn">More About Me</button></a>
+            </div>
+          </div>
+          <div class="home-content-2" data-aos="fade-left">
+            <img class= "home-img" src="images\img.jpg" alt="profile picture">
+          </div>
+        </div>
+    </section>
+      
+    <!--                              home section end                         -->
+      
+    <!--                              linked js and bootstrap file                         -->
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+      
+    <!--                              animation on scroll library start                        -->
+      
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
